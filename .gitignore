@@ -1,0 +1,6 @@
+# Ignorar .env e .db_key.secret
+.env
+db_key.secret
+
+#banco
+data/keys.db

@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+pydantic
+pysqlcipher3
+python-dotenv
+pytest
+httpx
+numpy

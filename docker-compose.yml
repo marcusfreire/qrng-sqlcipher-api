@@ -1,0 +1,45 @@
+version: "3.9"
+
+services:
+  api:
+    build: .
+    image: qrng-sqlcipher-api:latest
+    env_file: [.env]                # criar um .env a partir do .env.example
+    environment:
+      - DB_PATH=${DB_PATH:-/data/keys.db}
+      - DB_KEYFILE=${DB_KEYFILE:-/run/secrets/db_key}
+      - API_PORT=${API_PORT:-8080}
+      - UVICORN_WORKERS=${UVICORN_WORKERS:-1}
+    ports:
+      - "${API_PORT:-8080}:8080"
+    volumes:
+      - ./data:/data
+    secrets:
+      - db_key
+    user: "1000:1000"               # reforça uid/gid (compatível com /data no host)
+    restart: unless-stopped
+  loader:
+    image: qrng-sqlcipher-api:latest
+    env_file: [.env]
+    environment:
+      - DB_PATH=${DB_PATH:-/data/keys.db}
+      - DB_KEYFILE=${DB_KEYFILE:-/run/secrets/db_key}
+    volumes:
+      - ./data:/data
+      - ./bits:/input          # pasta local com bits.txt
+    secrets:
+      - db_key
+    user: "1000:1000"
+    entrypoint:
+      - /bin/sh
+      - -c
+      - "python /app/tools/loader_from_file_sqlcipher.py --file /input/bits.txt --key-bits 2048"
+    restart: "no"
+
+# Secret do Docker (requer Swarm para docker secret). Em dev, você pode bind-mountar manualmente.
+secrets:
+  db_key:
+    # Para usar secrets "locais" com compose sem Swarm, substitua por:
+    # file: .db_key.secret
+    # Em Swarm: `echo -n 'SENHA_FORTE' | docker secret create db_key -`
+    file: "./db_key.secret"
