@@ -4,3 +4,6 @@ db_key.secret
 
 #banco
 data/keys.db
+
+#randomBits
+bits/bits.txt

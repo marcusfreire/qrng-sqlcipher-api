@@ -12,7 +12,7 @@ Gerenciador de chaves geradas por QRNG (Quantum Random Number Generator), com:
 
 ---
 
-# 🔗 Origem dos bits (QRNG – TII 2024)
+## Origem dos bits (QRNG – TII 2024)
 
 Os bits utilizados por este sistema são extraídos de um **Quantum Random Number Generator (QRNG)** baseado em *balanced detection of shot noise*, conforme descrito no artigo:
 
@@ -24,7 +24,7 @@ Esse QRNG opera com detecção balanceada para isolar shot noise quântico, prod
 
 ---
 
-# 📁 Estrutura do Projeto
+## 📁 Estrutura do Projeto
 
 ```
 qrng-sqlcipher/
@@ -52,15 +52,15 @@ qrng-sqlcipher/
 
 ---
 
-# 🔐 Arquitetura
+## 🔐 Arquitetura
 
-### Banco de dados – SQLite + SQLCipher
+#### Banco de dados – SQLite + SQLCipher
 
 * Armazenado em `./data/keys.db`
 * Criptografado com **SQLCipher**
 * Senha lida de um **Docker secret** montado como `/run/secrets/db_key`
 
-### Tabela principal: `keys_pool`
+#### Tabela principal: `keys_pool`
 
 ```sql
 CREATE TABLE IF NOT EXISTS keys_pool (
@@ -78,52 +78,66 @@ CREATE TABLE IF NOT EXISTS keys_pool (
 
 ---
 
-# 🚀 Como executar do zero
+## 📘 Implantação do Ambiente
 
-## 1) Criar pastas necessárias
+### 1. Criação das pastas necessárias
 
 ```bash
 mkdir -p data bits
 ```
 
-## 2) Criar o secret do banco (não versionar!)
+### 2. Criação do arquivo de segredo criptográfico (SQLCipher)
 
 ```bash
 echo -n 'SENHA_FORTE_SEM_ASPAS' > db_key.secret
 ```
 
-> **Importante:**
+> **Observações:**
 >
-> * Não use aspas `'` na senha
-> * Não coloque espaços ou `\n` no final
-> * **NÃO comitar esse arquivo no GitHub!**
+> * Não utilizar aspas `'` dentro da senha.
+> * Evitar espaços e quebras de linha.
+> * **Nunca versionar este arquivo no Git ou em qualquer repositório.**
 
-## 3) Criar `.env`
+### 3. Definição das variáveis de ambiente
 
-Crie um arquivo `.env` com:
+Criar o arquivo `.env` com o seguinte conteúdo:
 
 ```dotenv
 DB_PATH=/data/keys.db
 DB_KEYFILE=/run/secrets/db_key
-API_PORT=8080
+API_PORT=8081
 UVICORN_WORKERS=1
 ```
 
-## 4) Colocar o arquivo `bits.txt` no volume
+### 4. Ajuste de permissões para os diretórios *data* e *bits*
+
+Caso o container seja executado sob o usuário de UID **1000** (configuração comum em ambientes Docker), ajustar permissões no host:
+
+```bash
+mkdir -p data bits
+chown -R 1000:1000 data bits
+chmod -R 755 data bits
+```
+
+Esse procedimento assegura que o processo interno do container terá acesso apropriado para criação e escrita no banco SQLCipher.
+
+### 5. Inserção do arquivo de bits
+
+Copiar o arquivo contendo a sequência bruta de bits:
 
 ```bash
 cp caminho/para/seu/bits.txt bits/bits.txt
 ```
 
-## 5) Build da imagem
+### 6. Construção das imagens Docker
 
 ```bash
 docker compose build
 ```
 
-## 6) Popular o banco com o loader
+### 7. População inicial do banco utilizando o *loader*
 
-Executa o loader **dentro do container**:
+Executar:
 
 ```bash
 docker compose run --rm loader
@@ -135,25 +149,28 @@ Saída esperada:
 OK: chaves inseridas=30 | H_min(batch)=0.999xxx | H_shannon(batch)=0.999xxx
 ```
 
-Agora `data/keys.db` está criado com o mesmo engine SQLCipher do container.
+Após isso, o arquivo `data/keys.db` estará devidamente criado e criptografado via SQLCipher.
 
-## 7) Subir a API
+### 8. Inicialização do serviço da API
 
 ```bash
 docker compose up -d api
 ```
 
-Verificar:
+### 9. Verificação operacional
 
 ```bash
-curl http://localhost:8080/keys/count
+curl http://localhost:8081/keys/count
 ```
+
+Se o banco estiver populado, o retorno deverá indicar a quantidade de chaves disponíveis.
+
 
 ---
 
-# 🧩 Endpoints da API
+## 🧩 Endpoints da API
 
-## GET `/keys/count`
+### GET `/keys/count`
 
 Retorna o número de chaves ainda disponíveis:
 
@@ -169,23 +186,23 @@ Resposta:
 
 ---
 
-## POST `/keys/pop?size_bits=...`
+### POST `/keys/pop?size_bits=...`
 
 Entrega uma **fatia** da chave de 2048 bits (ex.: 256/1024/2048 bits), mas **remove a chave inteira do banco** após o uso.
 
-### Exemplo 2048 bits (chave completa)
+#### Exemplo 2048 bits (chave completa)
 
 ```bash
 curl -X POST "http://localhost:8080/keys/pop?size_bits=2048"
 ```
 
-### Exemplo 256 bits (somente slice, mas consome a chave inteira)
+#### Exemplo 256 bits (somente slice, mas consome a chave inteira)
 
 ```bash
 curl -X POST "http://localhost:8080/keys/pop?size_bits=256"
 ```
 
-### Resposta típica
+#### Resposta típica
 
 ```json
 {
@@ -200,7 +217,7 @@ curl -X POST "http://localhost:8080/keys/pop?size_bits=256"
 
 ---
 
-# 🔄 Carregar novas chaves sem apagar as antigas
+## 🔄 Carregar novas chaves sem apagar as antigas
 
 Se você tiver um novo arquivo de bits (`bits_315k.txt`) com, por exemplo, **315000 bits**:
 
@@ -232,7 +249,7 @@ curl http://localhost:8080/keys/count
 
 ---
 
-# 🧪 Exemplos de uso
+## 🧪 Exemplos de uso
 
 ```bash
 # Ver quantas chaves existem
@@ -250,9 +267,9 @@ curl http://localhost:8080/keys/count
 
 ---
 
-# 🛠️ Troubleshooting
+## 🛠️ Troubleshooting
 
-### ❌ Erro: "file is not a database"
+#### ❌ Erro: "file is not a database"
 
 Causa mais comum:
 
@@ -269,7 +286,7 @@ docker compose up -d api
 
 ---
 
-### ❌ Erro: "cannot commit – no transaction is active"
+#### ❌ Erro: "cannot commit – no transaction is active"
 
 Use a versão atualizada de `tx_immediate` em `api/db.py` (já incluída neste repo):
 
@@ -280,7 +297,7 @@ if getattr(con, "in_transaction", False):
 
 ---
 
-### ❌ Nada retorna no `pop`
+#### ❌ Nada retorna no `pop`
 
 Significa que não há chaves disponíveis:
 
@@ -297,7 +314,7 @@ docker compose run --rm loader
 
 ---
 
-# 📦 Tecnologias utilizadas
+## 📦 Tecnologias utilizadas
 
 * Python 3.12
 * FastAPI
