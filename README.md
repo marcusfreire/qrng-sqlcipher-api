@@ -193,13 +193,13 @@ Entrega uma **fatia** da chave de 2048 bits (ex.: 256/1024/2048 bits), mas **rem
 #### Exemplo 2048 bits (chave completa)
 
 ```bash
-curl -X POST "http://localhost:8080/keys/pop?size_bits=2048"
+curl -X POST "http://localhost:8081/keys/pop?size_bits=2048"
 ```
 
 #### Exemplo 256 bits (somente slice, mas consome a chave inteira)
 
 ```bash
-curl -X POST "http://localhost:8080/keys/pop?size_bits=256"
+curl -X POST "http://localhost:8081/keys/pop?size_bits=256"
 ```
 
 #### Resposta típica
@@ -244,7 +244,7 @@ Ele irá:
 Verificar:
 
 ```bash
-curl http://localhost:8080/keys/count
+curl http://localhost:8081/keys/count
 ```
 
 ---
@@ -253,16 +253,16 @@ curl http://localhost:8080/keys/count
 
 ```bash
 # Ver quantas chaves existem
-curl http://localhost:8080/keys/count
+curl http://localhost:8081/keys/count
 
 # Consumir uma chave inteira
-curl -X POST "http://localhost:8080/keys/pop?size_bits=2048"
+curl -X POST "http://localhost:8081/keys/pop?size_bits=2048"
 
 # Consumir apenas 256 bits (mas a chave inteira é deletada)
-curl -X POST "http://localhost:8080/keys/pop?size_bits=256"
+curl -X POST "http://localhost:8081/keys/pop?size_bits=256"
 
 # Ver quantas sobram
-curl http://localhost:8080/keys/count
+curl http://localhost:8081/keys/count
 ```
 
 ---
