@@ -27,7 +27,7 @@ RUN addgroup -g 1000 app && adduser -D -G app -u 1000 app && \
     mkdir -p /data && chown -R app:app /data && chmod 750 /data && \
     chown app:app /app/entrypoint.sh && chmod 750 /app/entrypoint.sh
 
-EXPOSE 8080
+EXPOSE 8081
 
 # Troca para usuário não-root
 USER app:app

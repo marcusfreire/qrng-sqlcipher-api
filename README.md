@@ -22,6 +22,11 @@ Jaideep Singh et al., Technology Innovation Institute (TII), 2024
 
 Esse QRNG opera com detecção balanceada para isolar shot noise quântico, produzindo entropia física robusta (QCNR > 30 dB). As amostras são adquiridas via USB e pós-processadas (Toeplitz hashing), servindo como base para geração das chaves de 2048 bits usadas neste sistema.
 
+Para detalhes sobre **captura, comunicação com o RP2040**, consulte:
+
+📎 **Documentação complementar do módulo de captura**
+[`qrng_capture/README.md`](./qrng_capture/README.md)
+
 ---
 
 ## 📁 Estrutura do Projeto
@@ -36,6 +41,10 @@ qrng-sqlcipher/
 │
 ├── tools/
 │   └── loader_from_file_sqlcipher.py   # Loader para bits.txt → keys.db
+│
+├── qrng_capture/         # Captura direta do RP2040
+│   ├── qrng_capture.py   # Script de captura de bits e pós-processamento
+│   └── README.md         # Documentação da captura
 │
 ├── bits/                  # Pasta para colocar bits.txt (volume do loader)
 │   └── bits.txt
@@ -322,3 +331,13 @@ docker compose run --rm loader
 * Docker + Docker Compose
 * Docker Secrets
 * Entropia: H_min e H_shannon calculadas no batch
+
+---
+
+<div style="display:flex; align-items:center; gap:12px; padding:12px 0;">
+  <img src="docs/QuIIN.png" width="120" alt="QUIIN Logo"/>
+  <div>
+    <strong>Projeto QUIIN – Quantum Industrial Innovation</strong><br>
+    <a href="https://quiin.senaicimatec.com.br/">https://quiin.senaicimatec.com.br/</a>
+  </div>
+</div>
