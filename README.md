@@ -61,7 +61,19 @@ qrng-sqlcipher/
 
 ---
 
-## 🔐 Arquitetura
+## 🔐 Arquitetura do Sistema
+
+A figura abaixo apresenta a arquitetura completa do **QRNG Key Manager**, desde a captura de entropia quântica no hardware até o consumo das chaves pelas aplicações clientes.
+
+![Arquitetura do QRNG Key Manager](docs/arquitetura.png)
+
+**Fluxo resumido:**
+1. O QRNG baseado em RP2040 gera bits quânticos via balanced detection de shot noise.
+2. O script `qrng_capture.py` captura, pós-processa e grava o bitstream bruto.
+3. O *Key Loader* insere chaves de 2048 bits no banco SQLCipher.
+4. A API FastAPI fornece chaves via REST com consumo atômico.
+5. Aplicações clientes consomem chaves para TLS, OTP ou outros mecanismos criptográficos.
+
 
 #### Banco de dados – SQLite + SQLCipher
 
