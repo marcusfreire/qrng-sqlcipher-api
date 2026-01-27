@@ -1,0 +1,15 @@
+services:
+  kyber-client:
+    build:
+      context: ./kyber-client
+    network_mode: "host"
+    environment:
+      API_URL: "http://127.0.0.1:8081/keys/pop?size_bits=2048"
+      REPS: "100"
+      WARMUP: "5"
+      MODE: "both"          # both | baseline | qrng
+      CSV_OUT: "/out/results.csv"
+      ERR_OUT: "/out/errors.log"
+    volumes:
+      - ./out:/out
+    command: ["python3", "/app/run_kem_bench.py"]
