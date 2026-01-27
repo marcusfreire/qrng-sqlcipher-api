@@ -1,1 +1,3 @@
-# errors.log created_utc=2026-01-27T14:02:16.433268+00:00 api_url=http://127.0.0.1:8081/keys/pop?size_bits=2048
+# errors.log created_utc=2026-01-27T14:56:49.154187+00:00
+# api_url=http://127.0.0.1:8081/keys/pop?size_bits=2048
+# direct_driver=/app/qrng_direct.py port=/dev/ttyACM0 baud=115200

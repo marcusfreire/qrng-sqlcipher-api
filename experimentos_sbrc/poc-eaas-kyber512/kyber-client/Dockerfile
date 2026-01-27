@@ -7,6 +7,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     libssl-dev python3 python3-pip \
  && rm -rf /var/lib/apt/lists/*
 
+RUN python3 -m pip install --no-cache-dir pyserial
+
 WORKDIR /tmp
 
 # Pinar versão do liboqs para reprodutibilidade
@@ -24,6 +26,8 @@ RUN cmake -S . -B build -G Ninja \
 # App
 WORKDIR /app
 COPY kem_runner.c /app/kem_runner.c
+COPY qrng_direct.py /app/qrng_direct.py
+
 RUN gcc -O3 -std=c11 -Wall -Wextra -o /app/kem_runner /app/kem_runner.c \
     -loqs -lcrypto
 

@@ -3,13 +3,23 @@ services:
     build:
       context: ./kyber-client
     network_mode: "host"
+    devices:
+      - "/dev/ttyACM0:/dev/ttyACM0"
+    group_add:
+      - "dialout"
     environment:
       API_URL: "http://127.0.0.1:8081/keys/pop?size_bits=2048"
       REPS: "100"
       WARMUP: "5"
-      MODE: "both"          # both | baseline | qrng
+      MODE: "both"          # both | baseline | eaas | direct
       CSV_OUT: "/out/results.csv"
       ERR_OUT: "/out/errors.log"
+      # parâmetros para qrng_direct:
+      DIRECT_PORT: "/dev/ttyACM0"
+      DIRECT_BAUD: "115200"
+      DIRECT_TIMEOUT: "2.0"
+      DIRECT_MARGIN_SAMPLES: "8"
+      DRIVER_QRNG_DIRECT: "/app/qrng_direct.py"
     volumes:
       - ./out:/out
     command: ["python3", "/app/run_kem_bench.py"]
