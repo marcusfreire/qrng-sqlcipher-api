@@ -7,3 +7,21 @@ data/keys.db
 
 #randomBits
 bits/bits.txt
+
+# Ignorar cache do Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignorar arquivos temporários e checkpoints do Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb~ 
+
+# Ignorar configurações de IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# ignorando do STS, pois ja tem na fase_iii/data,
+# alem de ficar um arquivo grande que poderemos replicar o processo
+experimentos_sbrc/fase_iii/sts-*/data/rana_extend.txt
