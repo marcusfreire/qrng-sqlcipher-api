@@ -1,0 +1,4 @@
+mode,t_total_ms_median,t_total_ms_ci95_lo,t_total_ms_ci95_hi,n_ok
+baseline,7.957,7.765499999999999,8.153,100
+eaas,73.12899999999999,72.154,74.291,100
+direct,1214.4025,1212.74,1215.433,100

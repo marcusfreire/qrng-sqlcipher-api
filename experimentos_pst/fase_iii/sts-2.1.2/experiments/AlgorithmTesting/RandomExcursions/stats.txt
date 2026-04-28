@@ -1,0 +1,731 @@
+			  RANDOM EXCURSIONS TEST
+		--------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		--------------------------------------------
+		(a) Number Of Cycles (J) = 0646
+		(b) Sequence Length (n)  = 1000000
+		(c) Rejection Constraint = 500.000000
+		-------------------------------------------
+SUCCESS		x = -4 chi^2 =  2.297054 p_value = 0.806700
+SUCCESS		x = -3 chi^2 =  8.892741 p_value = 0.113420
+SUCCESS		x = -2 chi^2 =  1.628789 p_value = 0.897746
+SUCCESS		x = -1 chi^2 =  2.616099 p_value = 0.758918
+SUCCESS		x =  1 chi^2 =  3.699690 p_value = 0.593410
+SUCCESS		x =  2 chi^2 =  5.772580 p_value = 0.328981
+SUCCESS		x =  3 chi^2 =  1.165944 p_value = 0.948103
+SUCCESS		x =  4 chi^2 =  4.052200 p_value = 0.541925
+
+			  RANDOM EXCURSIONS TEST
+		--------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		--------------------------------------------
+		(a) Number Of Cycles (J) = 0367
+		(b) Sequence Length (n)  = 1000000
+		---------------------------------------------
+		WARNING:  TEST NOT APPLICABLE.  THERE ARE AN
+			  INSUFFICIENT NUMBER OF CYCLES.
+		---------------------------------------------
+
+			  RANDOM EXCURSIONS TEST
+		--------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		--------------------------------------------
+		(a) Number Of Cycles (J) = 0313
+		(b) Sequence Length (n)  = 1000000
+		---------------------------------------------
+		WARNING:  TEST NOT APPLICABLE.  THERE ARE AN
+			  INSUFFICIENT NUMBER OF CYCLES.
+		---------------------------------------------
+
+			  RANDOM EXCURSIONS TEST
+		--------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		--------------------------------------------
+		(a) Number Of Cycles (J) = 0418
+		(b) Sequence Length (n)  = 1000000
+		---------------------------------------------
+		WARNING:  TEST NOT APPLICABLE.  THERE ARE AN
+			  INSUFFICIENT NUMBER OF CYCLES.
+		---------------------------------------------
+
+			  RANDOM EXCURSIONS TEST
+		--------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		--------------------------------------------
+		(a) Number Of Cycles (J) = 0884
+		(b) Sequence Length (n)  = 1000000
+		(c) Rejection Constraint = 500.000000
+		-------------------------------------------
+SUCCESS		x = -4 chi^2 =  9.540678 p_value = 0.089347
+SUCCESS		x = -3 chi^2 =  3.824300 p_value = 0.574980
+SUCCESS		x = -2 chi^2 =  0.432546 p_value = 0.994386
+SUCCESS		x = -1 chi^2 =  7.160633 p_value = 0.208965
+SUCCESS		x =  1 chi^2 =  4.671946 p_value = 0.457212
+SUCCESS		x =  2 chi^2 =  5.926764 p_value = 0.313410
+SUCCESS		x =  3 chi^2 =  5.775566 p_value = 0.328674
+SUCCESS		x =  4 chi^2 =  7.172807 p_value = 0.208102
+
+			  RANDOM EXCURSIONS TEST
+		--------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		--------------------------------------------
+		(a) Number Of Cycles (J) = 1051
+		(b) Sequence Length (n)  = 1000000
+		(c) Rejection Constraint = 500.000000
+		-------------------------------------------
+SUCCESS		x = -4 chi^2 =  2.660838 p_value = 0.752101
+SUCCESS		x = -3 chi^2 =  4.327543 p_value = 0.503284
+SUCCESS		x = -2 chi^2 =  3.181767 p_value = 0.671986
+SUCCESS		x = -1 chi^2 =  2.318744 p_value = 0.803510
+SUCCESS		x =  1 chi^2 =  1.384396 p_value = 0.926013
+SUCCESS		x =  2 chi^2 =  2.603881 p_value = 0.760775
+SUCCESS		x =  3 chi^2 =  0.447490 p_value = 0.993920
+SUCCESS		x =  4 chi^2 =  3.658177 p_value = 0.599600
+
+			  RANDOM EXCURSIONS TEST
+		--------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		--------------------------------------------
+		(a) Number Of Cycles (J) = 0317
+		(b) Sequence Length (n)  = 1000000
+		---------------------------------------------
+		WARNING:  TEST NOT APPLICABLE.  THERE ARE AN
+			  INSUFFICIENT NUMBER OF CYCLES.
+		---------------------------------------------
+
+			  RANDOM EXCURSIONS TEST
+		--------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		--------------------------------------------
+		(a) Number Of Cycles (J) = 0182
+		(b) Sequence Length (n)  = 1000000
+		---------------------------------------------
+		WARNING:  TEST NOT APPLICABLE.  THERE ARE AN
+			  INSUFFICIENT NUMBER OF CYCLES.
+		---------------------------------------------
+
+			  RANDOM EXCURSIONS TEST
+		--------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		--------------------------------------------
+		(a) Number Of Cycles (J) = 2623
+		(b) Sequence Length (n)  = 1000000
+		(c) Rejection Constraint = 500.000000
+		-------------------------------------------
+SUCCESS		x = -4 chi^2 =  7.295814 p_value = 0.199553
+SUCCESS		x = -3 chi^2 =  6.172280 p_value = 0.289815
+SUCCESS		x = -2 chi^2 =  6.560441 p_value = 0.255436
+SUCCESS		x = -1 chi^2 =  4.397636 p_value = 0.493695
+SUCCESS		x =  1 chi^2 =  3.649638 p_value = 0.600876
+SUCCESS		x =  2 chi^2 =  3.768520 p_value = 0.583201
+SUCCESS		x =  3 chi^2 =  3.357518 p_value = 0.645048
+SUCCESS		x =  4 chi^2 = 12.320695 p_value = 0.030648
+
+			  RANDOM EXCURSIONS TEST
+		--------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		--------------------------------------------
+		(a) Number Of Cycles (J) = 0985
+		(b) Sequence Length (n)  = 1000000
+		(c) Rejection Constraint = 500.000000
+		-------------------------------------------
+SUCCESS		x = -4 chi^2 =  1.251204 p_value = 0.939872
+SUCCESS		x = -3 chi^2 =  1.420906 p_value = 0.922013
+SUCCESS		x = -2 chi^2 =  5.164818 p_value = 0.396099
+SUCCESS		x = -1 chi^2 =  7.521827 p_value = 0.184632
+SUCCESS		x =  1 chi^2 =  4.319797 p_value = 0.504350
+SUCCESS		x =  2 chi^2 =  5.466679 p_value = 0.361613
+SUCCESS		x =  3 chi^2 =  8.952081 p_value = 0.110991
+SUCCESS		x =  4 chi^2 =  7.542485 p_value = 0.183318
+
+			  RANDOM EXCURSIONS TEST
+		--------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		--------------------------------------------
+		(a) Number Of Cycles (J) = 0267
+		(b) Sequence Length (n)  = 1000000
+		---------------------------------------------
+		WARNING:  TEST NOT APPLICABLE.  THERE ARE AN
+			  INSUFFICIENT NUMBER OF CYCLES.
+		---------------------------------------------
+
+			  RANDOM EXCURSIONS TEST
+		--------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		--------------------------------------------
+		(a) Number Of Cycles (J) = 0922
+		(b) Sequence Length (n)  = 1000000
+		(c) Rejection Constraint = 500.000000
+		-------------------------------------------
+SUCCESS		x = -4 chi^2 = 10.870595 p_value = 0.054007
+SUCCESS		x = -3 chi^2 =  1.779044 p_value = 0.878795
+SUCCESS		x = -2 chi^2 =  5.493533 p_value = 0.358656
+SUCCESS		x = -1 chi^2 =  4.872017 p_value = 0.431698
+SUCCESS		x =  1 chi^2 =  4.728850 p_value = 0.449859
+SUCCESS		x =  2 chi^2 =  5.835837 p_value = 0.322522
+SUCCESS		x =  3 chi^2 =  5.085494 p_value = 0.405536
+SUCCESS		x =  4 chi^2 = 13.462975 p_value = 0.019406
+
+			  RANDOM EXCURSIONS TEST
+		--------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		--------------------------------------------
+		(a) Number Of Cycles (J) = 0023
+		(b) Sequence Length (n)  = 1000000
+		---------------------------------------------
+		WARNING:  TEST NOT APPLICABLE.  THERE ARE AN
+			  INSUFFICIENT NUMBER OF CYCLES.
+		---------------------------------------------
+
+			  RANDOM EXCURSIONS TEST
+		--------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		--------------------------------------------
+		(a) Number Of Cycles (J) = 0156
+		(b) Sequence Length (n)  = 1000000
+		---------------------------------------------
+		WARNING:  TEST NOT APPLICABLE.  THERE ARE AN
+			  INSUFFICIENT NUMBER OF CYCLES.
+		---------------------------------------------
+
+			  RANDOM EXCURSIONS TEST
+		--------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		--------------------------------------------
+		(a) Number Of Cycles (J) = 1706
+		(b) Sequence Length (n)  = 1000000
+		(c) Rejection Constraint = 500.000000
+		-------------------------------------------
+SUCCESS		x = -4 chi^2 =  2.072951 p_value = 0.838962
+SUCCESS		x = -3 chi^2 =  5.480769 p_value = 0.360059
+SUCCESS		x = -2 chi^2 =  5.778849 p_value = 0.328336
+SUCCESS		x = -1 chi^2 =  2.581477 p_value = 0.764178
+SUCCESS		x =  1 chi^2 =  3.573271 p_value = 0.612331
+SUCCESS		x =  2 chi^2 =  1.154212 p_value = 0.949194
+SUCCESS		x =  3 chi^2 =  6.841589 p_value = 0.232691
+SUCCESS		x =  4 chi^2 =  9.865986 p_value = 0.079123
+
+			  RANDOM EXCURSIONS TEST
+		--------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		--------------------------------------------
+		(a) Number Of Cycles (J) = 0680
+		(b) Sequence Length (n)  = 1000000
+		(c) Rejection Constraint = 500.000000
+		-------------------------------------------
+SUCCESS		x = -4 chi^2 =  4.619997 p_value = 0.463991
+SUCCESS		x = -3 chi^2 =  1.447459 p_value = 0.919052
+SUCCESS		x = -2 chi^2 =  5.201162 p_value = 0.391827
+SUCCESS		x = -1 chi^2 =  3.397059 p_value = 0.639018
+SUCCESS		x =  1 chi^2 =  3.532353 p_value = 0.618498
+SUCCESS		x =  2 chi^2 =  3.034641 p_value = 0.694645
+SUCCESS		x =  3 chi^2 =  1.482739 p_value = 0.915053
+SUCCESS		x =  4 chi^2 =  6.787740 p_value = 0.236911
+
+			  RANDOM EXCURSIONS TEST
+		--------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		--------------------------------------------
+		(a) Number Of Cycles (J) = 0868
+		(b) Sequence Length (n)  = 1000000
+		(c) Rejection Constraint = 500.000000
+		-------------------------------------------
+SUCCESS		x = -4 chi^2 =  3.267567 p_value = 0.658811
+SUCCESS		x = -3 chi^2 =  6.201062 p_value = 0.287144
+SUCCESS		x = -2 chi^2 =  4.698640 p_value = 0.453754
+SUCCESS		x = -1 chi^2 =  6.444700 p_value = 0.265319
+SUCCESS		x =  1 chi^2 =  9.269585 p_value = 0.098783
+SUCCESS		x =  2 chi^2 = 12.435114 p_value = 0.029288
+SUCCESS		x =  3 chi^2 =  7.106968 p_value = 0.212806
+SUCCESS		x =  4 chi^2 =  3.161375 p_value = 0.675123
+
+			  RANDOM EXCURSIONS TEST
+		--------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		--------------------------------------------
+		(a) Number Of Cycles (J) = 0840
+		(b) Sequence Length (n)  = 1000000
+		(c) Rejection Constraint = 500.000000
+		-------------------------------------------
+SUCCESS		x = -4 chi^2 =  3.034244 p_value = 0.694706
+SUCCESS		x = -3 chi^2 =  3.187874 p_value = 0.671047
+SUCCESS		x = -2 chi^2 =  3.181188 p_value = 0.672075
+SUCCESS		x = -1 chi^2 =  1.892857 p_value = 0.863763
+SUCCESS		x =  1 chi^2 =  4.140476 p_value = 0.529373
+SUCCESS		x =  2 chi^2 =  0.843445 p_value = 0.974180
+SUCCESS		x =  3 chi^2 =  0.854846 p_value = 0.973404
+SUCCESS		x =  4 chi^2 =  6.391575 p_value = 0.269959
+
+			  RANDOM EXCURSIONS TEST
+		--------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		--------------------------------------------
+		(a) Number Of Cycles (J) = 0600
+		(b) Sequence Length (n)  = 1000000
+		(c) Rejection Constraint = 500.000000
+		-------------------------------------------
+SUCCESS		x = -4 chi^2 =  2.425162 p_value = 0.787721
+SUCCESS		x = -3 chi^2 =  3.145680 p_value = 0.677538
+SUCCESS		x = -2 chi^2 =  6.748230 p_value = 0.240048
+SUCCESS		x = -1 chi^2 =  3.046667 p_value = 0.692791
+SUCCESS		x =  1 chi^2 =  5.133333 p_value = 0.399826
+SUCCESS		x =  2 chi^2 =  2.679835 p_value = 0.749201
+SUCCESS		x =  3 chi^2 =  2.774736 p_value = 0.734666
+SUCCESS		x =  4 chi^2 =  1.940119 p_value = 0.857367
+
+			  RANDOM EXCURSIONS TEST
+		--------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		--------------------------------------------
+		(a) Number Of Cycles (J) = 1164
+		(b) Sequence Length (n)  = 1000000
+		(c) Rejection Constraint = 500.000000
+		-------------------------------------------
+SUCCESS		x = -4 chi^2 =  1.962656 p_value = 0.854288
+SUCCESS		x = -3 chi^2 =  1.759786 p_value = 0.881283
+SUCCESS		x = -2 chi^2 =  4.133554 p_value = 0.530352
+SUCCESS		x = -1 chi^2 =  6.137457 p_value = 0.293073
+SUCCESS		x =  1 chi^2 =  1.934708 p_value = 0.858104
+SUCCESS		x =  2 chi^2 =  8.425777 p_value = 0.134279
+SUCCESS		x =  3 chi^2 =  4.098054 p_value = 0.535387
+SUCCESS		x =  4 chi^2 =  2.445914 p_value = 0.784618
+
+			  RANDOM EXCURSIONS TEST
+		--------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		--------------------------------------------
+		(a) Number Of Cycles (J) = 0714
+		(b) Sequence Length (n)  = 1000000
+		(c) Rejection Constraint = 500.000000
+		-------------------------------------------
+SUCCESS		x = -4 chi^2 =  7.130299 p_value = 0.211129
+SUCCESS		x = -3 chi^2 =  1.817331 p_value = 0.873799
+SUCCESS		x = -2 chi^2 =  1.400837 p_value = 0.924222
+SUCCESS		x = -1 chi^2 =  1.196078 p_value = 0.945253
+SUCCESS		x =  1 chi^2 =  1.067227 p_value = 0.956963
+SUCCESS		x =  2 chi^2 =  0.633745 p_value = 0.986406
+SUCCESS		x =  3 chi^2 =  4.747348 p_value = 0.447486
+SUCCESS		x =  4 chi^2 =  3.595190 p_value = 0.609036
+
+			  RANDOM EXCURSIONS TEST
+		--------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		--------------------------------------------
+		(a) Number Of Cycles (J) = 0040
+		(b) Sequence Length (n)  = 1000000
+		---------------------------------------------
+		WARNING:  TEST NOT APPLICABLE.  THERE ARE AN
+			  INSUFFICIENT NUMBER OF CYCLES.
+		---------------------------------------------
+
+			  RANDOM EXCURSIONS TEST
+		--------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		--------------------------------------------
+		(a) Number Of Cycles (J) = 1773
+		(b) Sequence Length (n)  = 1000000
+		(c) Rejection Constraint = 500.000000
+		-------------------------------------------
+SUCCESS		x = -4 chi^2 =  2.898867 p_value = 0.715574
+SUCCESS		x = -3 chi^2 =  5.035649 p_value = 0.411545
+SUCCESS		x = -2 chi^2 =  6.656911 p_value = 0.247432
+SUCCESS		x = -1 chi^2 =  4.824027 p_value = 0.437732
+SUCCESS		x =  1 chi^2 =  0.335589 p_value = 0.996920
+SUCCESS		x =  2 chi^2 =  8.373553 p_value = 0.136815
+SUCCESS		x =  3 chi^2 =  5.577462 p_value = 0.349527
+SUCCESS		x =  4 chi^2 =  1.952347 p_value = 0.855699
+
+			  RANDOM EXCURSIONS TEST
+		--------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		--------------------------------------------
+		(a) Number Of Cycles (J) = 0031
+		(b) Sequence Length (n)  = 1000000
+		---------------------------------------------
+		WARNING:  TEST NOT APPLICABLE.  THERE ARE AN
+			  INSUFFICIENT NUMBER OF CYCLES.
+		---------------------------------------------
+
+			  RANDOM EXCURSIONS TEST
+		--------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		--------------------------------------------
+		(a) Number Of Cycles (J) = 0353
+		(b) Sequence Length (n)  = 1000000
+		---------------------------------------------
+		WARNING:  TEST NOT APPLICABLE.  THERE ARE AN
+			  INSUFFICIENT NUMBER OF CYCLES.
+		---------------------------------------------
+
+			  RANDOM EXCURSIONS TEST
+		--------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		--------------------------------------------
+		(a) Number Of Cycles (J) = 0557
+		(b) Sequence Length (n)  = 1000000
+		(c) Rejection Constraint = 500.000000
+		-------------------------------------------
+SUCCESS		x = -4 chi^2 =  4.958191 p_value = 0.421004
+SUCCESS		x = -3 chi^2 = 10.890327 p_value = 0.053598
+SUCCESS		x = -2 chi^2 =  3.679389 p_value = 0.596434
+SUCCESS		x = -1 chi^2 =  3.204668 p_value = 0.668466
+SUCCESS		x =  1 chi^2 = 13.398564 p_value = 0.019917
+SUCCESS		x =  2 chi^2 =  8.020103 p_value = 0.155131
+SUCCESS		x =  3 chi^2 =  4.013228 p_value = 0.547513
+SUCCESS		x =  4 chi^2 =  6.166257 p_value = 0.290376
+
+			  RANDOM EXCURSIONS TEST
+		--------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		--------------------------------------------
+		(a) Number Of Cycles (J) = 1304
+		(b) Sequence Length (n)  = 1000000
+		(c) Rejection Constraint = 500.000000
+		-------------------------------------------
+SUCCESS		x = -4 chi^2 =  6.693344 p_value = 0.244464
+SUCCESS		x = -3 chi^2 =  8.898790 p_value = 0.113170
+SUCCESS		x = -2 chi^2 =  4.149966 p_value = 0.528033
+SUCCESS		x = -1 chi^2 =  3.190184 p_value = 0.670692
+SUCCESS		x =  1 chi^2 =  5.024540 p_value = 0.412893
+SUCCESS		x =  2 chi^2 =  4.789972 p_value = 0.442046
+SUCCESS		x =  3 chi^2 =  7.899161 p_value = 0.161881
+SUCCESS		x =  4 chi^2 =  6.822096 p_value = 0.234211
+
+			  RANDOM EXCURSIONS TEST
+		--------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		--------------------------------------------
+		(a) Number Of Cycles (J) = 1819
+		(b) Sequence Length (n)  = 1000000
+		(c) Rejection Constraint = 500.000000
+		-------------------------------------------
+SUCCESS		x = -4 chi^2 =  1.501205 p_value = 0.912931
+SUCCESS		x = -3 chi^2 =  6.201895 p_value = 0.287067
+SUCCESS		x = -2 chi^2 =  2.329125 p_value = 0.801980
+SUCCESS		x = -1 chi^2 =  1.241891 p_value = 0.940796
+SUCCESS		x =  1 chi^2 =  3.613524 p_value = 0.606284
+SUCCESS		x =  2 chi^2 =  2.139440 p_value = 0.829534
+SUCCESS		x =  3 chi^2 =  4.078817 p_value = 0.538125
+SUCCESS		x =  4 chi^2 =  2.072627 p_value = 0.839007
+
+			  RANDOM EXCURSIONS TEST
+		--------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		--------------------------------------------
+		(a) Number Of Cycles (J) = 2079
+		(b) Sequence Length (n)  = 1000000
+		(c) Rejection Constraint = 500.000000
+		-------------------------------------------
+SUCCESS		x = -4 chi^2 =  6.093872 p_value = 0.297192
+SUCCESS		x = -3 chi^2 =  1.881450 p_value = 0.865294
+SUCCESS		x = -2 chi^2 =  2.310958 p_value = 0.804656
+SUCCESS		x = -1 chi^2 =  0.136123 p_value = 0.999654
+SUCCESS		x =  1 chi^2 = 14.861472 p_value = 0.010971
+SUCCESS		x =  2 chi^2 =  7.752819 p_value = 0.170395
+SUCCESS		x =  3 chi^2 =  5.695199 p_value = 0.337016
+SUCCESS		x =  4 chi^2 =  3.722898 p_value = 0.589960
+
+			  RANDOM EXCURSIONS TEST
+		--------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		--------------------------------------------
+		(a) Number Of Cycles (J) = 1055
+		(b) Sequence Length (n)  = 1000000
+		(c) Rejection Constraint = 500.000000
+		-------------------------------------------
+SUCCESS		x = -4 chi^2 =  5.052087 p_value = 0.409557
+SUCCESS		x = -3 chi^2 = 12.934675 p_value = 0.023999
+SUCCESS		x = -2 chi^2 =  9.914914 p_value = 0.077682
+SUCCESS		x = -1 chi^2 = 13.530806 p_value = 0.018881
+SUCCESS		x =  1 chi^2 =  3.963033 p_value = 0.554750
+SUCCESS		x =  2 chi^2 =  4.293991 p_value = 0.507910
+SUCCESS		x =  3 chi^2 =  0.403289 p_value = 0.995239
+SUCCESS		x =  4 chi^2 =  6.760431 p_value = 0.239076
+
+			  RANDOM EXCURSIONS TEST
+		--------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		--------------------------------------------
+		(a) Number Of Cycles (J) = 1588
+		(b) Sequence Length (n)  = 1000000
+		(c) Rejection Constraint = 500.000000
+		-------------------------------------------
+SUCCESS		x = -4 chi^2 =  2.603420 p_value = 0.760846
+SUCCESS		x = -3 chi^2 =  1.191865 p_value = 0.945655
+SUCCESS		x = -2 chi^2 =  3.948223 p_value = 0.556894
+SUCCESS		x = -1 chi^2 =  5.290932 p_value = 0.381416
+SUCCESS		x =  1 chi^2 =  6.358942 p_value = 0.272842
+SUCCESS		x =  2 chi^2 =  6.099294 p_value = 0.296677
+SUCCESS		x =  3 chi^2 =  4.055107 p_value = 0.541509
+SUCCESS		x =  4 chi^2 =  6.043154 p_value = 0.302042
+
+			  RANDOM EXCURSIONS TEST
+		--------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		--------------------------------------------
+		(a) Number Of Cycles (J) = 0200
+		(b) Sequence Length (n)  = 1000000
+		---------------------------------------------
+		WARNING:  TEST NOT APPLICABLE.  THERE ARE AN
+			  INSUFFICIENT NUMBER OF CYCLES.
+		---------------------------------------------
+
+			  RANDOM EXCURSIONS TEST
+		--------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		--------------------------------------------
+		(a) Number Of Cycles (J) = 2029
+		(b) Sequence Length (n)  = 1000000
+		(c) Rejection Constraint = 500.000000
+		-------------------------------------------
+SUCCESS		x = -4 chi^2 =  7.277188 p_value = 0.200828
+SUCCESS		x = -3 chi^2 = 10.193349 p_value = 0.069939
+SUCCESS		x = -2 chi^2 =  6.058637 p_value = 0.300555
+SUCCESS		x = -1 chi^2 =  2.359290 p_value = 0.797521
+SUCCESS		x =  1 chi^2 =  2.506161 p_value = 0.775567
+SUCCESS		x =  2 chi^2 =  2.831943 p_value = 0.725876
+SUCCESS		x =  3 chi^2 =  9.332983 p_value = 0.096497
+SUCCESS		x =  4 chi^2 =  3.606834 p_value = 0.607287
+
+			  RANDOM EXCURSIONS TEST
+		--------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		--------------------------------------------
+		(a) Number Of Cycles (J) = 0184
+		(b) Sequence Length (n)  = 1000000
+		---------------------------------------------
+		WARNING:  TEST NOT APPLICABLE.  THERE ARE AN
+			  INSUFFICIENT NUMBER OF CYCLES.
+		---------------------------------------------
+
+			  RANDOM EXCURSIONS TEST
+		--------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		--------------------------------------------
+		(a) Number Of Cycles (J) = 0440
+		(b) Sequence Length (n)  = 1000000
+		---------------------------------------------
+		WARNING:  TEST NOT APPLICABLE.  THERE ARE AN
+			  INSUFFICIENT NUMBER OF CYCLES.
+		---------------------------------------------
+
+			  RANDOM EXCURSIONS TEST
+		--------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		--------------------------------------------
+		(a) Number Of Cycles (J) = 1074
+		(b) Sequence Length (n)  = 1000000
+		(c) Rejection Constraint = 500.000000
+		-------------------------------------------
+SUCCESS		x = -4 chi^2 =  3.016978 p_value = 0.697368
+SUCCESS		x = -3 chi^2 =  0.552635 p_value = 0.990069
+SUCCESS		x = -2 chi^2 =  4.410143 p_value = 0.491995
+SUCCESS		x = -1 chi^2 =  4.186220 p_value = 0.522928
+SUCCESS		x =  1 chi^2 =  0.744879 p_value = 0.980415
+SUCCESS		x =  2 chi^2 =  1.672713 p_value = 0.892319
+SUCCESS		x =  3 chi^2 = 10.611128 p_value = 0.059659
+SUCCESS		x =  4 chi^2 =  7.007370 p_value = 0.220093
+
+			  RANDOM EXCURSIONS TEST
+		--------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		--------------------------------------------
+		(a) Number Of Cycles (J) = 1001
+		(b) Sequence Length (n)  = 1000000
+		(c) Rejection Constraint = 500.000000
+		-------------------------------------------
+SUCCESS		x = -4 chi^2 =  3.968676 p_value = 0.553935
+SUCCESS		x = -3 chi^2 =  2.134028 p_value = 0.830306
+SUCCESS		x = -2 chi^2 =  1.973076 p_value = 0.852858
+SUCCESS		x = -1 chi^2 =  3.261738 p_value = 0.659704
+SUCCESS		x =  1 chi^2 =  5.073926 p_value = 0.406925
+SUCCESS		x =  2 chi^2 =  0.907327 p_value = 0.969689
+SUCCESS		x =  3 chi^2 =  0.338156 p_value = 0.996863
+SUCCESS		x =  4 chi^2 =  2.919842 p_value = 0.712342
+
+			  RANDOM EXCURSIONS TEST
+		--------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		--------------------------------------------
+		(a) Number Of Cycles (J) = 1375
+		(b) Sequence Length (n)  = 1000000
+		(c) Rejection Constraint = 500.000000
+		-------------------------------------------
+SUCCESS		x = -4 chi^2 =  5.217944 p_value = 0.389865
+SUCCESS		x = -3 chi^2 =  2.401968 p_value = 0.791181
+SUCCESS		x = -2 chi^2 =  3.830366 p_value = 0.574089
+SUCCESS		x = -1 chi^2 =  3.327273 p_value = 0.649669
+SUCCESS		x =  1 chi^2 =  4.146182 p_value = 0.528567
+SUCCESS		x =  2 chi^2 =  0.483259 p_value = 0.992723
+SUCCESS		x =  3 chi^2 =  3.617034 p_value = 0.605757
+SUCCESS		x =  4 chi^2 =  7.172643 p_value = 0.208114
+
+			  RANDOM EXCURSIONS TEST
+		--------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		--------------------------------------------
+		(a) Number Of Cycles (J) = 0798
+		(b) Sequence Length (n)  = 1000000
+		(c) Rejection Constraint = 500.000000
+		-------------------------------------------
+SUCCESS		x = -4 chi^2 =  7.951501 p_value = 0.158929
+SUCCESS		x = -3 chi^2 =  3.362995 p_value = 0.644212
+SUCCESS		x = -2 chi^2 =  3.664408 p_value = 0.598669
+SUCCESS		x = -1 chi^2 =  7.172932 p_value = 0.208094
+SUCCESS		x =  1 chi^2 =  3.102757 p_value = 0.684147
+SUCCESS		x =  2 chi^2 =  5.945605 p_value = 0.311548
+SUCCESS		x =  3 chi^2 =  0.384601 p_value = 0.995743
+SUCCESS		x =  4 chi^2 =  5.415185 p_value = 0.367336
+
+			  RANDOM EXCURSIONS TEST
+		--------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		--------------------------------------------
+		(a) Number Of Cycles (J) = 0533
+		(b) Sequence Length (n)  = 1000000
+		(c) Rejection Constraint = 500.000000
+		-------------------------------------------
+SUCCESS		x = -4 chi^2 =  2.969200 p_value = 0.704734
+SUCCESS		x = -3 chi^2 =  5.277295 p_value = 0.382984
+SUCCESS		x = -2 chi^2 =  2.598453 p_value = 0.761600
+SUCCESS		x = -1 chi^2 =  2.335835 p_value = 0.800990
+SUCCESS		x =  1 chi^2 =  4.118199 p_value = 0.532527
+SUCCESS		x =  2 chi^2 =  4.484354 p_value = 0.481980
+SUCCESS		x =  3 chi^2 =  2.637565 p_value = 0.755650
+SUCCESS		x =  4 chi^2 =  1.666353 p_value = 0.893111
+
+			  RANDOM EXCURSIONS TEST
+		--------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		--------------------------------------------
+		(a) Number Of Cycles (J) = 0700
+		(b) Sequence Length (n)  = 1000000
+		(c) Rejection Constraint = 500.000000
+		-------------------------------------------
+SUCCESS		x = -4 chi^2 =  4.545411 p_value = 0.473831
+SUCCESS		x = -3 chi^2 = 10.690469 p_value = 0.057874
+FAILURE		x = -2 chi^2 = 20.437954 p_value = 0.001034
+SUCCESS		x = -1 chi^2 = 10.602857 p_value = 0.059848
+SUCCESS		x =  1 chi^2 = 11.711429 p_value = 0.038963
+SUCCESS		x =  2 chi^2 = 12.149489 p_value = 0.032796
+SUCCESS		x =  3 chi^2 =  2.656503 p_value = 0.752763
+SUCCESS		x =  4 chi^2 =  5.934603 p_value = 0.312634
+
+			  RANDOM EXCURSIONS TEST
+		--------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		--------------------------------------------
+		(a) Number Of Cycles (J) = 0494
+		(b) Sequence Length (n)  = 1000000
+		---------------------------------------------
+		WARNING:  TEST NOT APPLICABLE.  THERE ARE AN
+			  INSUFFICIENT NUMBER OF CYCLES.
+		---------------------------------------------
+
+			  RANDOM EXCURSIONS TEST
+		--------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		--------------------------------------------
+		(a) Number Of Cycles (J) = 1854
+		(b) Sequence Length (n)  = 1000000
+		(c) Rejection Constraint = 500.000000
+		-------------------------------------------
+SUCCESS		x = -4 chi^2 =  3.458463 p_value = 0.629682
+SUCCESS		x = -3 chi^2 =  5.023953 p_value = 0.412964
+SUCCESS		x = -2 chi^2 =  2.641043 p_value = 0.755120
+SUCCESS		x = -1 chi^2 =  2.704423 p_value = 0.745442
+SUCCESS		x =  1 chi^2 =  3.664509 p_value = 0.598654
+SUCCESS		x =  2 chi^2 =  1.593538 p_value = 0.902030
+SUCCESS		x =  3 chi^2 =  2.606581 p_value = 0.760365
+SUCCESS		x =  4 chi^2 =  4.830047 p_value = 0.436972
+
+			  RANDOM EXCURSIONS TEST
+		--------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		--------------------------------------------
+		(a) Number Of Cycles (J) = 0065
+		(b) Sequence Length (n)  = 1000000
+		---------------------------------------------
+		WARNING:  TEST NOT APPLICABLE.  THERE ARE AN
+			  INSUFFICIENT NUMBER OF CYCLES.
+		---------------------------------------------
+
+			  RANDOM EXCURSIONS TEST
+		--------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		--------------------------------------------
+		(a) Number Of Cycles (J) = 0586
+		(b) Sequence Length (n)  = 1000000
+		(c) Rejection Constraint = 500.000000
+		-------------------------------------------
+SUCCESS		x = -4 chi^2 =  5.826437 p_value = 0.323475
+SUCCESS		x = -3 chi^2 =  3.807274 p_value = 0.577484
+SUCCESS		x = -2 chi^2 =  4.719336 p_value = 0.451084
+SUCCESS		x = -1 chi^2 =  2.539249 p_value = 0.770573
+SUCCESS		x =  1 chi^2 =  3.133106 p_value = 0.679473
+SUCCESS		x =  2 chi^2 =  1.145325 p_value = 0.950014
+SUCCESS		x =  3 chi^2 =  3.988298 p_value = 0.551102
+SUCCESS		x =  4 chi^2 =  3.808029 p_value = 0.577373
+
+			  RANDOM EXCURSIONS TEST
+		--------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		--------------------------------------------
+		(a) Number Of Cycles (J) = 0936
+		(b) Sequence Length (n)  = 1000000
+		(c) Rejection Constraint = 500.000000
+		-------------------------------------------
+SUCCESS		x = -4 chi^2 =  8.000737 p_value = 0.156195
+SUCCESS		x = -3 chi^2 =  2.693897 p_value = 0.747052
+SUCCESS		x = -2 chi^2 =  4.109106 p_value = 0.533817
+SUCCESS		x = -1 chi^2 =  4.051282 p_value = 0.542056
+SUCCESS		x =  1 chi^2 =  4.222222 p_value = 0.517885
+SUCCESS		x =  2 chi^2 =  4.771130 p_value = 0.444445
+SUCCESS		x =  3 chi^2 =  0.385805 p_value = 0.995712
+SUCCESS		x =  4 chi^2 =  5.582631 p_value = 0.348970
+
+			  RANDOM EXCURSIONS TEST
+		--------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		--------------------------------------------
+		(a) Number Of Cycles (J) = 1553
+		(b) Sequence Length (n)  = 1000000
+		(c) Rejection Constraint = 500.000000
+		-------------------------------------------
+SUCCESS		x = -4 chi^2 =  2.007729 p_value = 0.848074
+SUCCESS		x = -3 chi^2 =  1.720241 p_value = 0.886340
+SUCCESS		x = -2 chi^2 =  4.673925 p_value = 0.456955
+SUCCESS		x = -1 chi^2 =  6.290406 p_value = 0.278978
+SUCCESS		x =  1 chi^2 =  6.180940 p_value = 0.289009
+SUCCESS		x =  2 chi^2 =  6.619883 p_value = 0.250479
+SUCCESS		x =  3 chi^2 =  3.070188 p_value = 0.689166
+SUCCESS		x =  4 chi^2 =  3.426999 p_value = 0.634461
+
+			  RANDOM EXCURSIONS TEST
+		--------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		--------------------------------------------
+		(a) Number Of Cycles (J) = 1112
+		(b) Sequence Length (n)  = 1000000
+		(c) Rejection Constraint = 500.000000
+		-------------------------------------------
+SUCCESS		x = -4 chi^2 =  9.835290 p_value = 0.080039
+SUCCESS		x = -3 chi^2 =  6.659934 p_value = 0.247184
+SUCCESS		x = -2 chi^2 =  4.056088 p_value = 0.541369
+SUCCESS		x = -1 chi^2 =  1.874101 p_value = 0.866277
+SUCCESS		x =  1 chi^2 =  3.517986 p_value = 0.620668
+SUCCESS		x =  2 chi^2 =  4.913403 p_value = 0.426540
+SUCCESS		x =  3 chi^2 =  3.440524 p_value = 0.632406
+SUCCESS		x =  4 chi^2 =  4.983199 p_value = 0.417934
+
+			  RANDOM EXCURSIONS TEST
+		--------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		--------------------------------------------
+		(a) Number Of Cycles (J) = 0489
+		(b) Sequence Length (n)  = 1000000
+		---------------------------------------------
+		WARNING:  TEST NOT APPLICABLE.  THERE ARE AN
+			  INSUFFICIENT NUMBER OF CYCLES.
+		---------------------------------------------
+

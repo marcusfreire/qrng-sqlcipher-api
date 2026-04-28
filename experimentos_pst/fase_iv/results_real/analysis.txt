@@ -1,0 +1,6 @@
+Unicidade. Não houve duplicação de key_id nas execuções observadas, o que é consistente com semântica de consumo atômico sob concorrência.
+Carga A: crescimento não linear de latência a partir de N=64 (fator 3.30 na p50 ao dobrar a concorrência).
+Carga A. melhor ponto em bits/s ocorreu em N=16, com mediana de 288921.37 bits/s e fairness de 1.000.
+Referência. Na carga A, o desperdício mediano foi 0.00%, próximo de zero quando o cliente solicita o bloco completo.
+Inferência: há evidência compatível com contenção em armazenamento/serialização interna na carga A a partir de N=32, pois o throughput entra em platô enquanto a p95 e o backlog aumentam.
+Exaustão. Não houve respostas 4xx suficientes para caracterizar comportamento próximo da exaustão nas execuções observadas.
